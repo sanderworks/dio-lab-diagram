@@ -14,8 +14,7 @@ class ReprodutorMusical {
     +tocar()
     +pausar()
     +anterior()
-    +próxima()       
-    +setVolume(int nivel)
+    +próxima() 
 }
 
 class AparelhoTelefonico {
@@ -51,6 +50,7 @@ class iPhone {
     -int volume
     +bloquearTela()
     +desbloquearTela()
+    +setVolume(int nivel)
 }
 
     ReprodutorMusical <|-- iPhone
